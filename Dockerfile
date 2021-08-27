@@ -1,4 +1,4 @@
-FROM sgollapudi123/sgollapudibasicdeploy:latest
+FROM sgollapudi123/basic-deploy:latest
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
